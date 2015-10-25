@@ -1,0 +1,22 @@
+﻿tr {
+    height:50px;
+}
+
+.tblHeader
+{
+    text-align:center;
+}
+
+td{
+    text-align:center;
+}
+
+tr, td, th {
+    box-sizing:border-box;
+    border:1px solid;
+}
+
+.padd
+{
+    padding-top:20px;
+}

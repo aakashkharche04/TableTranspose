@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transpose Table</title>
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="Content/Project/app.css" />
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <header>
+                    <h4 class="tblHeader">
+                        Table Transpose
+                    </h4>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <table id="userTbl" name="UserTable">
+                    <thead>
+                        <tr class="row">
+                            <td class="col-lg-3">Id</td>
+                            <td class="col-lg-3">Name</td>
+                            <td class="col-lg-3">Course</td>
+                            <td class="col-lg-3">Pay</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td class="col-lg-3">1</td>
+                            <td class="col-lg-3">Aakash</td>
+                            <td class="col-lg-3">Information Technology</td>
+                            <td class="col-lg-3">32000</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-3">2</td>
+                            <td class="col-lg-3">Akshay</td>
+                            <td class="col-lg-3">Computer Sciences</td>
+                            <td class="col-lg-3">56000</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-3">3</td>
+                            <td class="col-lg-3">Richa</td>
+                            <td class="col-lg-3">Electrical Engineering</td>
+                            <td class="col-lg-3">12000</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-3">4</td>
+                            <td class="col-lg-3">Rohit</td>
+                            <td class="col-lg-3">Electronics and Communication</td>
+                            <td class="col-lg-3">24000</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-3">5</td>
+                            <td class="col-lg-3">Vivek</td>
+                            <td class="col-lg-3">Chemical Engineering</td>
+                            <td class="col-lg-3">45000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <div class="row padd">
+            <div class="col-lg-12">
+                <button class="btn btn-warning pull-right" onclick="TransposeTable(event)">Transpose</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <footer>
+                    
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Scripts/App/Jquery/jquery-2.1.0.js"></script>
+    <script src="/Scripts/App/Angular/angular.min.js"></script>
+    <script src="/Scripts/App/Bootstrap/bootstrap.min.js"></script>
+    <script src="Scripts/Transpose.js"></script>
+
+</body>
+</html>

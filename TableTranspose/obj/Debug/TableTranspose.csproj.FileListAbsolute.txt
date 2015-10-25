@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\bin\TableTranspose.dll.config
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\bin\TableTranspose.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\bin\TableTranspose.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\obj\Debug\TableTranspose.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\obj\Debug\TableTranspose.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\TableTranspose\TableTranspose\obj\Debug\TableTranspose.pdb
